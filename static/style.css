@@ -1,0 +1,52 @@
+/* Style the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form */
+form {
+  margin-bottom: 20px;
+}
+
+/* Style the file input */
+input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style the buttons */
+button {
+  margin-right: 10px;
+}
+
+/* Style the plot div */
+#plot {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the axis labels */
+.xtitle, .ytitle {
+  font-weight: bold;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Style the axis tick labels */
+xticks, yticks {
+  font-size: 12px;
+  color: #555;
+}
+
+/* Style the legend */
+.legend {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #555;
+}

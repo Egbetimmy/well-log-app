@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Well Log Plot</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Well Log Plot</h1>
+      <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="file">Select CSV file to upload:</label>
+          <input type="file" name="file" id="file" accept=".csv">
+        </div>
+        <button type="submit" class="btn btn-primary">Plot</button>
+        <button type="button" class="btn btn-secondary" onclick="clearPlot()">Clear Plot</button>
+      </form>
+      <div id="plot"></div>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}?v=1"></script>
+  </body>
+</html>
